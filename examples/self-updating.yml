@@ -1,0 +1,62 @@
+# Self-updating GitHub profile cards
+#
+# Copy this file to <your-username>/<your-username>/.github/workflows/cards.yml
+# and add a repository secret named CARDS_TOKEN containing any GitHub token
+# with read access to your own repos (a classic PAT with `repo` scope also
+# counts your private repositories into the cards).
+#
+# It renders all thirteen cards daily and commits them back, so your profile
+# README stays current without any external service.
+
+name: cards
+
+on:
+  schedule:
+    - cron: "23 3 * * *" # daily at 03:23 UTC
+  push:
+    paths:
+      - "cards/**"
+      - "testdata/**"
+      - ".github/workflows/cards.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards
+
+env:
+  USER_LOGIN: ${{ github.repository_owner }} # the profile repo owner's login
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: python -m unittest cards.test_cards
+
+      - name: Render cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          python -m cards.render --login "$USER_LOGIN" --out assets/cards
+          # adjust --theme if phosphor is not your look: amber | paper
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cards history.jsonl README.md
+          if git diff --cached --quiet; then
+            echo "cards unchanged"
+            exit 0
+          fi
+          git commit -m "cards: refresh from live profile data"
+          git push
