@@ -35,6 +35,8 @@ jobs:
         run: python -m unittest cards.test_cards
 
       - name: Render demo (phosphor, amber, paper)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -m cards.render --login mgkvibez --out docs/demo
           for t in amber paper; do
