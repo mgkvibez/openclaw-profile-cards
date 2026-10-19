@@ -46,7 +46,14 @@ def main():
     ap.add_argument("--fixture", default="testdata/profile.json")
     ap.add_argument("--out", default="assets/cards")
     ap.add_argument("--theme", default="phosphor", choices=sorted(theme.THEMES))
+    ap.add_argument("--list", action="store_true", dest="list_options",
+                    help="print available themes and cards, then exit")
     args = ap.parse_args()
+
+    if args.list_options:
+        print("themes:", ", ".join(sorted(theme.THEMES)))
+        print("cards :", ", ".join(sorted(CARDS)))
+        return
 
     theme.apply(args.theme)
     if args.login:
