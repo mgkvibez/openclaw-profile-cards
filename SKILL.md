@@ -5,7 +5,7 @@ description: Render a GitHub user's profile as 13 self-updating, terminal-themed
 
 # openclaw-profile-cards
 
-Turn any GitHub account's live data into thirteen hand-drawn SVG stat cards
+Turn any GitHub account's live data into sixteen hand-drawn SVG stat cards
 and a stats table — no third-party widget APIs, one GraphQL round trip,
 committed straight to the user's profile README.
 

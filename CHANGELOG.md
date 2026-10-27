@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.2.0 — 2026-10-27
+
+- Three new cards: **streak** (uptime-style contribution streaks: longest
+  run with date span, current run, active-day coverage, runs bar),
+  **ledger** (one year's contributions audited by type: commits, PRs,
+  issues, reviews, restricted), and **reach** (stargazer signal: total
+  stars, top repos, dark-matter count). Sixteen cards total.
+- New **dracula** theme — the classic #bd93f9 purple on dark — joining
+  phosphor, amber, paper and nord. `docs/themes/ubuntu-dracula.svg` and
+  `docs/themes/streak-dracula.svg` preview it.
+- README: card grid shows the three new cards; themes table gains a
+  dracula column. Test suite grown to 34.
+
 ## v1.1.0 — 2026-10-19
 
 - New **nord** theme (frost-blue accent on polar-night panels), joining
