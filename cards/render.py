@@ -1,4 +1,4 @@
-"""Render all four cards into assets/cards/.
+"""Render every card into assets/cards/.
 
     python -m cards.render --fixture testdata/profile.json   # offline
     python -m cards.render --login <github-user>         # live (needs GITHUB_TOKEN)
@@ -10,9 +10,10 @@ import argparse
 import os
 
 from . import (card_activity, card_city, card_collab, card_drift,
-                card_heatmap, card_languages, card_portscan, card_registry,
-                card_rhythm, card_scope, card_training, card_ubuntu,
-                card_years, github_data, history, table, theme)
+                card_heatmap, card_languages, card_ledger, card_portscan,
+                card_registry, card_reach, card_rhythm, card_scope,
+                card_streak, card_training, card_ubuntu, card_years,
+                github_data, history, table, theme)
 
 # Simple cards take just the profile dict; the archive-aware ones also
 # receive the snapshot history so they can move, not just measure.
@@ -30,6 +31,9 @@ CARDS = {
     "activity.svg": card_activity.render,
     "collab.svg": card_collab.render,
     "drift.svg": card_drift.render,
+    "streak.svg": card_streak.render,
+    "ledger.svg": card_ledger.render,
+    "reach.svg": card_reach.render,
 }
 
 # cards that read the snapshot archive (data, entries) -> svg

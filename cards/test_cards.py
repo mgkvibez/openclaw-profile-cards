@@ -6,9 +6,10 @@ import os
 import tempfile
 
 from . import (card_activity, card_city, card_collab, card_drift,
-                card_heatmap, card_languages, card_portscan, card_registry,
-                card_rhythm, card_scope, card_training, card_ubuntu,
-                card_years, github_data, history, stats, table)
+                card_heatmap, card_languages, card_ledger, card_portscan,
+                card_registry, card_reach, card_rhythm, card_scope,
+                card_streak, card_training, card_ubuntu, card_years,
+                github_data, history, stats, table)
 
 FIXTURE = "testdata/profile.json"
 _DATA = None    # loaded lazily so a missing fixture never breaks import
@@ -44,6 +45,39 @@ class CardsTest(unittest.TestCase):
             self.assertIn("commits", r)
             self.assertGreaterEqual(r["commits"], 0)
             self.assertIn("private", r)
+
+    def test_streak_card(self):
+        svg_out = self._render(card_streak, "uptime.streaks")
+        self.assertIn("40d", svg_out)
+        self.assertIn("2026-09-07", svg_out)
+
+    def test_streak_math(self):
+        days = [{"date": "2026-01-0%d" % i,
+                 "count": 1 if i in (1, 2, 4, 5, 6) else 0}
+                for i in range(1, 8)]
+        self.assertEqual(card_streak._runs(days), [(0, 2), (3, 3)])
+        self.assertEqual(card_streak._current(days), 3)
+
+    def test_ledger_card(self):
+        svg_out = self._render(card_ledger, "git ledger")
+        self.assertIn("restricted (private)", svg_out)
+        self.assertIn("202", svg_out)
+        self.assertIn("278", svg_out)
+
+    def test_reach_card(self):
+        svg_out = self._render(card_reach, "signal-strength")
+        self.assertIn("total stargazers", svg_out)
+        self.assertIn("dark matter", svg_out)
+
+    def test_dracula_theme(self):
+        from . import theme
+        self.assertIn("dracula", theme.THEMES)
+        self.assertEqual(theme.apply("dracula"), "dracula")
+        self.assertEqual(theme.BG, "#282a36")
+        self.assertEqual(theme.PHOSPHOR, "#bd93f9")
+        theme.apply("phosphor")
+        with self.assertRaises(KeyError):
+            theme.apply("nope")
 
     def test_city_day_sky(self):
         from . import card_city
