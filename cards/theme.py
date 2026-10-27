@@ -1,10 +1,12 @@
 """Palettes and typography for the profile cards.
 
-Three themes ship out of the box:
+Five themes ship out of the box:
 
   phosphor — the terminal-green default (GitHub-dark base, #00ff41 accent)
   amber     — retro amber CRT (#ffb000 accent on warm dark)
   paper     — light mode for light-profile users (GitHub-green accent)
+  nord     — polar-night blues with a frost accent
+  dracula  — the classic purple-on-dark palette (#bd93f9 accent)
 
 All use system monospace stacks: web fonts do not load inside GitHub's
 camo-proxied SVGs, so the stack is what every renderer can rely on.
@@ -46,6 +48,12 @@ THEMES = {
         "FG": "#1f2328", "DIM": "#57606a", "GREEN": "#1a7f37",
         "AMBER": "#9a6700", "CYAN": "#0969da", "RED": "#cf222e",
         "PHOSPHOR": "#2ea043", "SCOPE_BG": "#dafbe1",
+    },
+    "dracula": {
+        "BG": "#282a36", "PANEL": "#21222c", "BORDER": "#44475a",
+        "FG": "#f8f8f2", "DIM": "#6272a4", "GREEN": "#50fa7b",
+        "AMBER": "#f1fa8c", "CYAN": "#8be9fd", "RED": "#ff5555",
+        "PHOSPHOR": "#bd93f9", "SCOPE_BG": "#343746",
     },
 }
 
