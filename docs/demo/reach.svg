@@ -12,19 +12,19 @@
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="62" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" text-anchor="start" font-weight="normal">$ signal-strength --stars</text>
 <text x="18" y="90" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">total stargazers</text>
-<text x="442" y="90" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" text-anchor="end" font-weight="bold">44</text>
+<text x="442" y="90" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" text-anchor="end" font-weight="bold">62</text>
 <text x="18" y="138" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">ci-whisper</text>
-<text x="230" y="138" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">★ 4</text>
+<text x="230" y="138" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">★ 5</text>
 <rect x="270" y="129" width="172.0" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
-<text x="18" y="162" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">migsafe</text>
-<text x="230" y="162" fill="#e3b341" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">★ 3</text>
-<rect x="270" y="153" width="129.0" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
-<text x="18" y="186" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">depdrift</text>
+<text x="18" y="162" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">depdrift</text>
+<text x="230" y="162" fill="#e3b341" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">★ 4</text>
+<rect x="270" y="153" width="137.6" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
+<text x="18" y="186" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">migsafe</text>
 <text x="230" y="186" fill="#e3b341" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">★ 3</text>
-<rect x="270" y="177" width="129.0" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
+<rect x="270" y="177" width="103.2" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
 <text x="18" y="210" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">mgkvibez</text>
 <text x="230" y="210" fill="#e3b341" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">★ 2</text>
-<rect x="270" y="201" width="86.0" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
+<rect x="270" y="201" width="68.8" height="10" rx="1" fill="#00ff41" opacity="0.85"/>
 <text x="18" y="234" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">dark matter</text>
-<text x="442" y="234" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="end" font-weight="normal">1 repos at 0 ★</text>
+<text x="442" y="234" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="end" font-weight="normal">0 repos at 0 ★</text>
 </svg>

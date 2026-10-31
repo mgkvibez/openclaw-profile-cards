@@ -12,26 +12,26 @@
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="62" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" text-anchor="start" font-weight="normal">$ uptime --contributions --human</text>
 <text x="18" y="88" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">longest run</text>
-<text x="150" y="88" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">54d</text>
-<text x="442" y="88" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">2026-09-07 → 2026-10-30</text>
+<text x="150" y="88" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">55d</text>
+<text x="442" y="88" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">2026-09-07 → 2026-10-31</text>
 <text x="18" y="118" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">current run</text>
-<text x="150" y="118" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">54d</text>
+<text x="150" y="118" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">55d</text>
 <text x="442" y="118" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">live</text>
 <text x="18" y="148" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">days up</text>
-<text x="150" y="148" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">73 / 370</text>
+<text x="150" y="148" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">74 / 371</text>
 <text x="442" y="148" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">20% coverage</text>
 <text x="18" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">outages</text>
 <text x="150" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">297</text>
 <text x="442" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">empty days in window</text>
 <text x="18" y="206" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">runs</text>
-<rect x="58.10810810810811" y="212" width="3.4378378378378383" height="10" rx="1" fill="#39d353"/>
-<rect x="286.15135135135137" y="212" width="4.583783783783784" height="10" rx="1" fill="#39d353"/>
-<rect x="317.0918918918919" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
-<rect x="319.3837837837838" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
-<rect x="326.2594594594595" y="212" width="6.8756756756756765" height="10" rx="1" fill="#39d353"/>
-<rect x="348.0324324324325" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
-<rect x="350.3243243243243" y="212" width="2.291891891891892" height="10" rx="1" fill="#39d353"/>
-<rect x="375.53513513513514" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
-<rect x="380.11891891891895" y="212" width="61.881081081081085" height="10" rx="1" fill="#39d353"/>
+<rect x="58.0" y="212" width="3.4285714285714284" height="10" rx="1" fill="#39d353"/>
+<rect x="285.4285714285714" y="212" width="4.571428571428571" height="10" rx="1" fill="#39d353"/>
+<rect x="316.2857142857143" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
+<rect x="318.57142857142856" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
+<rect x="325.4285714285714" y="212" width="6.857142857142857" height="10" rx="1" fill="#39d353"/>
+<rect x="347.1428571428571" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
+<rect x="349.4285714285714" y="212" width="2.2857142857142856" height="10" rx="1" fill="#39d353"/>
+<rect x="374.57142857142856" y="212" width="1.2" height="10" rx="1" fill="#39d353"/>
+<rect x="379.1428571428571" y="212" width="62.857142857142854" height="10" rx="1" fill="#39d353"/>
 <text x="18" y="270" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">one year window · up = 1+ contribution that day · trailing empty days are the future</text>
 </svg>
